@@ -15,4 +15,3 @@ Local storage retains the lists.
 Demo
 ====
 
-http://shibulijack.github.io/Task-Manager/
