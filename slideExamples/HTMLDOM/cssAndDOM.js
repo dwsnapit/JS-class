@@ -1,6 +1,6 @@
 console.log(document.getElementById("first").className);
 
-document.getElementById("first").className= "paraAlt";
+//document.getElementById("first").className= "paraAlt";
 var hide = function()
 {
     document.getElementById("first").style.visibility= "hidden";
