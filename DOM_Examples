@@ -35,7 +35,8 @@ Last name: <input type="text" name="lname" value="Beckham"><br>
 
 3. Write a JavaScript program to set the background color of a paragraph. 
 
-4. Here is a sample html file with a submit button. Write a JavaScript function to get the value of the href, hreflang, rel, target, and type attributes of the specified link.
+4. Here is a sample html file with a submit button. Write a JavaScript function to get the value of the href, 
+hreflang, rel, target, and type attributes of the specified link.
 
 <!DOCTYPE html>
 <html><head>
@@ -63,7 +64,8 @@ Sample HTML file :
 <input type="button" onclick="insert_Row()" value="Insert row"> 
 </body></html>
 
-6. Write a JavaScript function that accept row, column, (to identify a particular cell) and a string to update the content of that cell. Go to the editor
+6. Write a JavaScript function that accept row, column, (to identify a particular cell) 
+and a string to update the content of that cell. 
 Sample HTML file :
 
 <!DOCTYPE html>
@@ -82,7 +84,8 @@ Sample HTML file :
 <input type="button" onclick="changeContent()" value="Change content">
 </form></body></html>
 
-7. Write a JavaScript function that creates a table, accept row, column numbers from the user, and input row-column number as content (e.g. Row-0 Column-0) of a cell. Go to the editor
+7. Write a JavaScript function that creates a table, accept row, column numbers from the user, 
+and input row-column number as content (e.g. Row-0 Column-0) of a cell. 
 Sample HTML file :
 
 <!DOCTYPE html>
