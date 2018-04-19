@@ -18,7 +18,7 @@ block content
                             th(scope='col') Description
                             th(scope='col') Completed
                             th(scope='col') Assigned
-                            th(scope='col') Delete ?
+
                     tbody
                         for task, i in tasks
                             tr
@@ -29,7 +29,10 @@ block content
                                 td= task.ass
                                 td
                                     form(method="delete", action="/deletetask/#{task._id}")
-                                        button.btn.btn-primary(type="submit") Delete Me
+                                        button.btn.btn-primary(type="submit") Delete
+                                td
+                                    form(method="delete", action="/tasks/#{task._id}")
+                                        button.btn.btn-primary(type="submit") Edit
                         else
                             tr 
                                 td sorry no tasks

@@ -593,12 +593,11 @@ pre code {
 }
 
 .container-fluid {
-  width: 100%;
+  width: 60%;
   padding-top: 10%;
   padding-right: 15%;
   padding-left: 15%;
-  margin-right: auto;
-  margin-left: auto;
+  margin: auto 0px;
 }
 
 .row {
@@ -630,6 +629,7 @@ pre code {
   min-height: 1px;
   padding-right: 15px;
   padding-left: 15px;
+  margin: auto;
 }
 
 .col {
@@ -4427,6 +4427,7 @@ tbody.collapse.show {
   position: relative;
   padding: 0.75rem 1.25rem;
   margin-bottom: 1rem;
+  margin:auto;
   border: 1px solid transparent;
   border-radius: 0.25rem;
 }
@@ -4511,6 +4512,7 @@ tbody.collapse.show {
   color: #856404;
   background-color: #fff3cd;
   border-color: #ffeeba;
+  margin:auto;
 }
 
 .alert-warning hr {
